@@ -1,0 +1,9 @@
+[project]
+name = "deep-dive-python"
+version = "0.1.0"
+description = "This repo contains all the python files for my python practice"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.1.2",
+]
