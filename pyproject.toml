@@ -5,3 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
+
+
+[tool.ruff]
+lint.extend-select = ["PTH"] # we are enforching
+lint.ignore = ["T201"] # we can also tell ruff to ignore certain errors by putting the error code number in the file
